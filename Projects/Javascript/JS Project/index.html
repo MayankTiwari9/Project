@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 id="header">Tip Calculator</h1>
+    </header>
+    <section>
+        <div id="container">
+            <div class="entry">
+                <div id="inputPart">
+                    <div class="item1 item">
+                        <label>Bill Amount ₹</label>
+                        <input type="number" id="BillAmount" min="0" value="0" required />
+                    </div>
+                    <div class="item2 item">
+                        <label>Tip %</label>
+                        <input id="Tip" type="number" value="5" min="0" max="100" required />
+                    </div>
+                    <div class="item3 item">
+                        <label>Number of People</label>
+                        <input id="Split" type="number" value="1" min="1" required />
+                    </div>
+                    <div class="item4 item">
+                        <button onclick="calculate()">calculate</button>
+                    </div>
+                </div>
+            </div>
+            <div id="outputPart">
+                <div id="tipamount">
+                    <span>Tip per person (₹):</span>
+                    <span id="display1"></span>
+                </div>
+                <div id="totaltipamount">
+                    <span>Total Tip (₹):</span>
+                    <span id="display3"></span>
+                </div>
+                <div id="total">
+                    <span>Total Amount per person (₹):</span>
+                    <span id="display2"></span>
+                </div>
+                <div id="totalamount">
+                    <span>Total Amount to be paid (₹):</span>
+                    <span id="display4"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer">
+            <h4>By Mayank Tiwari</h4>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

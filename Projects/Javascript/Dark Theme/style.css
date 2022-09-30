@@ -1,0 +1,23 @@
+.day {
+    background-color: white;
+    color: black;
+}
+
+.night {
+    background-color: black;
+    color: gold;
+}
+
+.button_night {
+    background-color: darkblue;
+    color: white;
+}
+
+.button_day{
+    background-color: white;
+    color: black;
+}
+
+html, body, #app {
+height: 100%;
+}

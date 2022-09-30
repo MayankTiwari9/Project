@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function populate() {
+                while (true) {
+                    let windowRelativeBottom = document.documentElement.getBoundingClientRect().bottom;
+    
+                    // if the user hasn't scrolled far enough (>100px to the end)
+                    if (windowRelativeBottom > document.documentElement.clientHeight + 100) break;
+    
+                    // let's add more data
+                    document.body.insertAdjacentHTML("beforeend", `<p>Date: ${new Date()}</p>`);
+                }
+            }
+    
+            window.addEventListener('scroll', populate);
+            populate();
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .bgname{
+            background-color: lightgoldenrodyellow;
+        }
+        *{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        button{
+            background-size: 100%;
+            color: white;
+            background-color: rgb(207, 154, 56);
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <h2>REGISTER</h2>
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" class="bgname" name="name" id="name" placeholder="Your Name" required>
+        </div><br>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" class="bgname" name="email" id="email" placeholder="Your Email" required>
+        </div><br>
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" class="bgname" id="password" placeholder="Enter Your Password" required>
+        </div><br>
+        <div>
+            <button value="Register">Register</button>
+        </div>
+        <p>Already Have an Account?
+            <a href="login.html">Please Login</a>
+        </p>
+        <p>or</p>
+        <div>
+            <a href="#" class="fb-btn">
+                <i id="fb">Login with Facebook</i>
+            </a><br>
+            <a href="#" class="twitter btn">
+                <i id="twit">Login with Twitter</i>
+            </a><br>
+            <a href="#" class="google btn">
+                <i id="goog">Login with Google</i>
+            </a>
+        </div>
+    </form>
+</body>
+</html>

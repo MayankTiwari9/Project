@@ -1,0 +1,56 @@
+{
+  "list": [
+    {
+      "title": "html",
+      "amount": 5000,
+      "duration": 1,
+      "id": 2
+    },
+    {
+      "title": "css",
+      "amount": 3000,
+      "duration": 2,
+      "id": 4
+    },
+    {
+      "title": "3",
+      "amount": "3",
+      "duration": "3",
+      "id": 5
+    },
+    {
+      "title": "greetings",
+      "amount": "2000",
+      "duration": "1",
+      "id": 6
+    },
+    {
+      "title": "duration",
+      "amount": "3000",
+      "duration": "1",
+      "id": 7
+    }
+  ],
+  "classtable": [
+    {
+      "id": 1,
+      "product": "mobile",
+      "amount": 3000
+    },
+    {
+      "id": 2,
+      "product": "van",
+      "amount": 6000
+    },
+    {
+      "product": "laptop",
+      "amount": "3456",
+      "id": 3
+    },
+    {
+      "product": "hp",
+      "amount": "30000",
+      "id": 4
+    }
+  ]
+}

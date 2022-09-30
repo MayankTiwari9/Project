@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .bgname {
+            background-color: white;
+            border-radius: 7px;
+        }
+
+        body {
+            background-color: lightskyblue;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        button {
+            background-size: 100%;
+            color: white;
+            background-color: rgb(72, 72, 204);
+            border-radius: 7px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        form{
+            border: 2px solid black;
+            margin-left: 370px;
+            margin-right: 370px;
+            margin-top: 60px;
+            border-radius: 10px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div>
+            <h2>LOGIN</h2>
+        </div>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" class="bgname" name="email" id="email" placeholder="Your Email" required>
+        </div><br>
+        <div>
+            <label for="password">Paassword:</label><br>
+            <input type="password" class="bgname" name="password" id="password" placeholder="Your Password"
+                required><br>
+        </div><br>
+        <button>Login</button>
+        <p>New Here?
+            <a href="SignUp.html" target="_blank">Create an Account</a>
+        </p>
+        <p>Forgot Password?
+            <a href="Login.html">Reset Password</a>
+        </p>
+
+    </form>
+</body>
+
+</html>

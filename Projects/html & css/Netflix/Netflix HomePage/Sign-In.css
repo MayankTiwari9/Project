@@ -1,0 +1,151 @@
+body {
+    text-align: center;
+    border-radius: 10px;
+    background: #000;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#netflixBG{
+    background-image:url('netflix-bg.jpg');
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+#netflixlogo img{
+    width: 134px;
+    height: 64px;
+    display: flex;
+    float: left;
+}
+#navbar{
+    height: 100px;
+    display: flex;
+}
+.bgname {
+    border-radius: 4px;
+    margin: 5px 0px 5px;
+    width: 230px;
+    height: 40px;
+    color: #000;
+    background-color: #222;
+    border: none;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+}
+
+button {
+    background-size: 100%;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    margin: 24px 0px 12px;
+    width: 230px;
+    height: 40px;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+form{
+    border: 1px solid black;
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-top: 60px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.75);
+    padding-bottom: 75px;
+    margin-bottom: 75px;
+    width: 340px;
+}
+.remember-help{
+    display: flex;
+    justify-content: space-between;
+}
+.remember-help #remember{
+    font-size: 0.7rem;
+    margin-left: 28px;
+}
+.remember-help #help{
+    font-size: 0.7rem;
+    margin-right: 52px;
+}
+#new p{
+    color: #aaa6a6;
+    text-align: left;
+    margin-left: 52px;
+    font-size: 0.9rem;
+}
+#new a{
+    color: #ffffff;
+}
+.description p{
+    font-size: 0.7rem;
+    text-align: left;
+    margin-left: 52px;
+    color: #8c8c8c;
+}
+.description a{
+    font-size: 0.7rem;
+    color: #0071EB;
+}
+footer{
+    min-width: 190px;
+    width: 100%;
+    margin-top: 80px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+}
+.foot{
+    width: 1400;
+    color: #777;
+    background-color: rgba(0,0,0,.75);
+    padding-left: 105px;
+    padding-right: 350px;
+    height: 205px;
+}
+.foot-align{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 0.8rem;
+}
+.foot-para p{
+    padding-top: 15px;
+    text-align: left;
+    font-size: 0.8rem;
+}
+footer a{
+    color: #777;
+}
+ #hindi{
+    background: black;
+    color: #ffffff;
+}
+#english{
+    background: black;
+    color: #ffffff;
+}
+#language{
+    color: white;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    margin: auto;
+    background: none;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    padding: 10px;
+}
+#option{
+    justify-content: left;
+    margin-left: -520px;
+    margin-top: 15px;
+}
